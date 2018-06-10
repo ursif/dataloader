@@ -1,0 +1,17 @@
+{
+  "name": "@ursif/dataloader",
+  "version": "0.0.0",
+  "description": "A utility for loading and viewing data from disparate data sources",
+  "main": "index.js",
+  "author": "Tim Roberts <tim@mck-p.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  }
+}
