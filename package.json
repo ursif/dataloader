@@ -7,11 +7,21 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "codecov": "^3.0.2",
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
     "jest": "^23.1.0",
     "nodemon": "^1.17.5"
   },
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "jest"
+    "test": "jest",
+    "commit": "git cz"
+  },
+  "repository": "git@github.com:ursif/dataloader.git",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }

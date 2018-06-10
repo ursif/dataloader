@@ -1,5 +1,9 @@
 # @usrif/dataloader
 
+[![codecov](https://codecov.io/gh/ursif/dataloader/branch/master/graph/badge.svg)](https://codecov.io/gh/ursif/dataloader)
+
+[![CircleCI](https://circleci.com/gh/ursif/dataloader.svg?style=svg)](https://circleci.com/gh/ursif/dataloader)
+
 ## Usage
 
 ```js
